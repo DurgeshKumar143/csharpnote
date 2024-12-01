@@ -631,7 +631,9 @@ Note : abstract function are terminated by using semicolon in base class. it doe
  # abstarct class:
 --------------------
  => An abstract class is a collection of various abstract and non-abstact function.
+
  => Abstarc class is a special class. We can't instantialte an abstract class.
+
  => We can't create object of an abstact class.
 
  => Abstarct class is only for inheritance.
@@ -681,7 +683,7 @@ public class Circle : Shape
 
 
 ## Sealed class:
-  --------------
+----------------
   => Sealed class is a special class in c#
 
   => A Sealed class is a class that can't be inherited by any other class.
@@ -696,7 +698,32 @@ public class Circle : Shape
     // data methods
    } 
 
-   
+## Interface:
+===================
+=> An interface is a complete abstract class>
+
+=> An interface is a special type that has only function decration.
+
+=> Interface is a collection of various abstract method. All the methods of interface are by default public and abstract. Also no need to write public and abastract keyword.
+
+=> In C# We can't declare of an interface . It is used by child classed
+
+=> Interface is used to implement some concept like multiple inheritance. We can inherit one class and multiple interface inside a child class.
+
+=> It is mandatory for child class to define( implement) all method of an interface.
+
+=> Interface "Keyword" is used to define
+
+ ## Syntax:
+ ----------
+ 
+ <access_specifier> interface <interface_name>
+ {
+
+    // Declaration of abstract class
+ }
+
+
 
 
 
