@@ -639,7 +639,7 @@ Note : abstract function are terminated by using semicolon in base class. it doe
 
  => Abstarct keyword is used to create an abstract class.
 
- Syntact:
+ Syntaxt:
  --------
   <access_Specifier> abstract class<Class_Name>
   {
@@ -647,4 +647,32 @@ Note : abstract function are terminated by using semicolon in base class. it doe
      // abstarct & not-abstract data method
   }
 
-  
+ ## abstract function example
+     public abstract class Shape
+{
+    // Abstract method (no body)
+    public abstract double GetArea();
+
+    // Concrete method (with body)
+    public void Display()
+    {
+        Console.WriteLine("This is a shape.");
+    }
+}
+
+public class Circle : Shape
+{
+    private double radius;
+
+    public Circle(double radius)
+    {
+        this.radius = radius;
+    }
+
+    // Implementation of the abstract method
+    public override double GetArea()
+    {
+        return Math.PI * radius * radius;
+    }
+}
+
