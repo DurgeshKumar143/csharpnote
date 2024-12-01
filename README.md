@@ -610,7 +610,8 @@ Note: - We can't overload a function on the basis of it's return type.
 ===========================
 => An abstract function is a function of base class that has not any definition is has declaration only
 
-=> It is mandatory for child class to ovverride abstract function of base class
+=> It is mandatory for child class to ovverride abstract function of base class or child class cam also be declared as an abstact class then it can deney(ignor) to override abstarct class
+   
 
 => An abstract function is a funtion without definition in base class.
 
@@ -648,6 +649,7 @@ Note : abstract function are terminated by using semicolon in base class. it doe
   }
 
  ## abstract function example
+
      public abstract class Shape
 {
     // Abstract method (no body)
@@ -675,4 +677,26 @@ public class Circle : Shape
         return Math.PI * radius * radius;
     }
 }
+
+
+
+## Sealed class:
+  --------------
+  => Sealed class is a special class in c#
+
+  => A Sealed class is a class that can't be inherited by any other class.
+
+  => Sealed Keyword is define a sealed class
+
+  ## Syntact:
+  -----------
+  <access_specifier> sealed class <Class_Name>
+   {
+    // data members
+    // data methods
+   } 
+
+   
+
+
 
