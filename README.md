@@ -605,3 +605,46 @@ Note: - We can't overload a function on the basis of it's return type.
 => It is optional for child class to override a virtual function of base class.
 
 => To override a virtual function in child class we have to use "override" keyword.
+
+## abstract function:
+===========================
+=> An abstract function is a function of base class that has not any definition is has declaration only
+
+=> It is mandatory for child class to ovverride abstract function of base class
+
+=> An abstract function is a funtion without definition in base class.
+
+=> abstract function are create by using "abstract" keyword.
+
+=> We have to use "override" keyword in chilsd class during function ovverriding.
+
+=> Syntaxt to create an abstract function:
+-------------------------------------------
+<access_specifier> abstract <return_Type> FunctionName
+(List_of_Parameters);
+
+Note : abstract function are terminated by using semicolon in base class. it does not have any body.
+
+=> abstract function can be created only with in an abstract class.
+
+ # abstarct class:
+--------------------
+ => An abstract class is a collection of various abstract and non-abstact function.
+ => Abstarc class is a special class. We can't instantialte an abstract class.
+ => We can't create object of an abstact class.
+
+ => Abstarct class is only for inheritance.
+
+ => Data abstraction is used to implement data security(hiding) in program. We can achieve abstarction by using abstact class. Because this class can be use only by it's only child class.
+
+ => Abstarct keyword is used to create an abstract class.
+
+ Syntact:
+ --------
+  <access_Specifier> abstract class<Class_Name>
+  {
+     // data member
+     // abstarct & not-abstract data method
+  }
+
+  
